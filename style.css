@@ -60,14 +60,15 @@ code {
     font-weight: 700;
     font-family: monospace;
     background-color: rgba(152, 112, 11, 0.293);
+    border-radius: 3px;
 }
 
 code::before {
-    content: "`";
+    content: " `";
 }
 
 code::after {
-    content: "`";
+    content: "` ";
 }
 
 .p-text {
